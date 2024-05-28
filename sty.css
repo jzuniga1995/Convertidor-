@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('https://img.freepik.com/foto-gratis/renderizado-3d-retrato-perro-dibujos-animados_23-2150907000.jpg?t=st=1716923117~exp=1716926717~hmac=de1fc538ec8edad9b8967d71fed99abfb95d455859edf4615e7e00f111c8d8f9&w=740'); /* Cambia esta URL a la de tu imagen */
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.alert {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+}
